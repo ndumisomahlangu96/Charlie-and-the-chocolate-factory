@@ -1,0 +1,20 @@
+Wed Jan 25 15:05:52 2023
+
+
+Jimmy,Fred,26
+Mike,Dick,27
+1962,11,15
+Wed Jan 25 15:09:17 2023
+
+
+Ndumiso,Mahlangu,23
+Kutlwano,Mahlangu,23
+Jubilee,Mahlangu,21
+Siphesihle,Mahlangu,18
+Simps,Mahlangu,30
+Wed Jan 25 15:10:40 2023
+
+
+Mike,Freddie,35
+Miso,One,45
+Neo,One,35
