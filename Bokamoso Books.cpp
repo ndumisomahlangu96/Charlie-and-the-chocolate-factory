@@ -1,4 +1,5 @@
-
+// PROGRAM: BOKAMOSO BOOKS.CPP
+// This program record customer purchases and saves data to a textfile("Bokamoso Books.txt")
 #include <iostream>
 #include <fstream>
 #include <ctime>
