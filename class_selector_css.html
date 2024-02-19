@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>class selector</title>
+
+    </head>
+    <body>
+        <h1>class selector</h1>
+        <p>
+            The id is usually unique for an element. But what if we need the same CSS <br>
+            for a group of elements? Not all, but some of them. Observe the following
+        </p>
+
+        <a href="C:\Users\USER\Documents\Web development\CSS\Html_file_without_css_2.JPG">
+            <img src="Html_file_without_css_2.JPG" alt="Image failed to load.">
+        </a>
+
+        <p>This is a red paragraph.</p>
+        <p>This is a red paragraph.</p>
+        <p>This is a red paragraph.</p>
+
+        <p>This is a red paragraph.</p>
+        <p>This is a red paragraph.</p>
+        <p>This is a red paragraph.</p>
+
+        <p>
+           Out of all the six paragraphs, first, three should be red in color. We can give <br>
+           the same ids to them and it will work. But it is not recommended at all. For <br>
+           such cases, we have another attribute, which is known as the "class" <br>
+           attribute. 
+        </p>
+
+        <p>
+            <b>The class selector is used to give the same CSS to multiple elements.</b> To <br>
+            use this type of selector, use a dot(.) followed by the class name. <br>
+            The same class is assigned for the first three tags.
+        </p>
+
+        <a href="C:\Users\USER\Documents\Web development\CSS\Html_file_with_css_3.JPG">
+            <img src="Html_file_with_css_3.JPG"alt="Image failed to load.">
+
+        </a>
+
+        <style>
+            .redp{
+                color:red;
+            }
+        </style>
+
+        <p class="redp">This is a red paragraph.</p>
+        <p class="redp">This is a red paragraph.</p>
+        <p class="redp">This is a red paragraph.</p>
+
+        <p>This is a red paragraph.</p>
+        <p>This is a red paragraph.</p>
+        <p>This is a red paragraph.</p>
+
+        <p>
+            The CSS is applied to the first three paragraphs, while others are unaffected.
+            Like id, <b> a class name can also not start with a number.</b>
+        </p>
+
+
+    </body>
+    
+
+</html>
