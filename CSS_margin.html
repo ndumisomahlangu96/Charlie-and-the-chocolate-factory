@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Margin </title>
+
+        <style>
+            #border_div {
+                border : 2px solid black;
+            }
+            #border_p {
+                border : 2px solid red;
+            }
+            #margin_p {
+                border : 2px solid red;
+                margin-top : 10px;
+                margin-bottom : 10px;
+                margin-left : 20px;
+                margin-right : 20px
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            Margin
+        </h1>
+
+        <p>
+            To understand, we need to create the content inside a div tag. This tag is <br>
+            used to define a section or division in an HTML document.
+        </p>
+
+        <a href="D:\Documents\Web development\CSS_borders_margin_padding\CSS_margin_1.PNG">
+            <img src="CSS_margin_1.PNG">
+        </a>
+
+        <p>
+            Both p and div tags have border of 2px.
+        </p>
+
+        <div id="border_div">
+            <p id="border_p">
+                This is a paragraph.
+            </p>
+        </div>
+
+        <p>
+            <b>The area between the red line and the black line is the margin </b> for the p <br>
+            tag. To set the margin in all directions, we can use the "margin" property.
+        </p>
+
+        <p>
+            Let's remove the default margin by setting its value to 0px.
+        </p>
+
+        <a href="D:\Documents\Web development\CSS_borders_margin_padding\CSS_margin_2.PNG">
+            <img src = "CSS_margin_2.PNG">
+        </a>
+
+        <p>
+            There is no margin now.
+        </p>
+
+        <div id="border_div">
+            <p id="border_p" style="margin: 0px;">
+                This is a paragraph.
+            </p>
+        </div>
+
+        <p>
+            To set margin in a particular direction, we have four different properties: <br>
+            <b>"margin-top", "margin-bottom", "margin-right", and "margin-left".</b>
+        </p>
+
+        <a href="D:\Documents\Web development\CSS_borders_margin_padding\CSS_margin_3.PNG">
+            <img src="CSS_margin_3.PNG">
+        </a>
+
+        <p>
+            Margin for top and bottom is 10px while it is 20px for left and right.
+        </p>
+
+        <div id="border_div">
+            <p id="margin_p">
+                This is a paragraph.
+            </p>
+        </div>
+
+        <p>
+            The "margin" property is actually a shorthand property. We can also use the <br>
+            "margin" property to set different margins for each direction.
+        </p>
+    </body>
+</html>
