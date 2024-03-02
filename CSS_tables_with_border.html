@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tables with border
+        </title>
+
+        <style>
+            #red_border_table, #red_border_td{
+                border: 2px solid red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            Tables with border
+        </h1>
+
+        <p>
+            In the HTML section, we discussed how attractive tables can be created <br>
+            using CSS.
+        </p>
+
+        <a href="D:\Documents\Web development\CSS_borders_margin_padding\CSS_border_4.PNG">
+            <img src="CSS_border_4.PNG">
+        </a>
+
+        <table>
+            <tr>
+                <td> column1 </td>
+                <td> column2</td>
+            </tr>
+            <tr>
+                <td> column1 </td>
+                <td> column2 </td>
+            </tr>
+        </table>
+
+        <p>
+            This tables does not have any CSS.
+        </p>
+
+        <p>
+            To add the border, we can use any property we discussed. Let's go with the <br>
+            "border" property.
+        </p>
+
+        <a href="D:\Documents\Web development\CSS_borders_margin_padding\CSS_border_6.PNG">
+            <img src="CSS_border_6.PNG">
+        </a>
+
+        <p>
+            To create a proper border on a table, we need to apply CSS.
+        </p>
+
+        <table id="red_border_table">
+            <tr>
+                <td id="red_border_td"> column1 </td>
+                <td id="red_border_td"> column2</td>
+            </tr>
+            <tr>
+                <td id="red_border_td"> column1 </td>
+                <td id="red_border_td"> column2 </td>
+            </tr>
+        </table>
+
+        <p>
+            As of now, the table has a double border. To fix this, <b>use the "border- <br>
+            collapse" property and set its value to "collapse".</b>
+        </p>
+
+        <a href="D:\Documents\Web development\CSS_borders_margin_padding\CSS_border_7.PNG">
+            <img src="CSS_border_7.PNG">
+        </a>
+
+        <table id="red_border_table" style="border-collapse: collapse;">
+            <tr>
+                <td id="red_border_td"> column1 </td>
+                <td id="red_border_td"> column2</td>
+            </tr>
+            <tr>
+                <td id="red_border_td"> column1 </td>
+                <td id="red_border_td"> column2 </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
